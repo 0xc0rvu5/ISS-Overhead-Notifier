@@ -54,5 +54,3 @@ try:
                     msg=f'Subject: Look up!\n\nLook up!')
 except Exception:
     print('error caught:', Exception.__name__)
-
-
