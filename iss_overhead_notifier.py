@@ -52,5 +52,6 @@ try:
                     from_addr=EMAIL,
                     to_addrs=EMAIL,
                     msg=f'Subject: Look up!\n\nLook up!')
+
 except Exception:
     print('error caught:', Exception.__name__)
